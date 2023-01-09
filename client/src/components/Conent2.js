@@ -1,12 +1,12 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
-export default function Content1() {
+export default function Content2() {
   return (
     <Box
       sx={{
-        width: 600,
-        height: 600,
+        width: 300,
+        height: 300,
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",
