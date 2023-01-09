@@ -12,7 +12,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function BasicStack() {
+export default function Projects() {
   return (
     <Box sx={{ width: "100%" }}>
       <Stack spacing={2}>
