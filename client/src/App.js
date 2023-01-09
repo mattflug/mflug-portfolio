@@ -5,8 +5,6 @@ import Content2 from "./components/Content2";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Logos from "./components/Logos";
-import { ClassNames } from "@emotion/react";
-
 function App() {
   return (
     <>
