@@ -5,8 +5,8 @@ export default function Content2() {
   return (
     <Box
       sx={{
-        width: 300,
-        height: 300,
+        width: 500,
+        height: 500,
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",
