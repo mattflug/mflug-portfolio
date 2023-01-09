@@ -50,7 +50,7 @@ export default function Content() {
       </Box>
       <CardMedia
         component="img"
-        sx={{ width: 151 }}
+        sx={{ width: 1000 }}
         image="/static/images/cards/live-from-space.jpg"
         alt="Live from space album cover"
       />
