@@ -7,7 +7,7 @@ export default function Content() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="md">
         <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} />
       </Container>
     </React.Fragment>

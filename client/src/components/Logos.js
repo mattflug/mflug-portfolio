@@ -12,13 +12,11 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function Projects() {
+export default function Logos() {
   return (
     <Box sx={{ width: "100%" }}>
       <Stack spacing={2}>
-        <Item>Project 1</Item>
-        <Item>Project 2</Item>
-        <Item>Project 3</Item>
+        <Item>Logos</Item>
       </Stack>
     </Box>
   );
