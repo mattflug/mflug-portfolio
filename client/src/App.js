@@ -5,6 +5,7 @@ import Content2 from "./components/Content2";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Logos from "./components/Logos";
+
 function App() {
   return (
     <>
