@@ -18,7 +18,6 @@ export default function Projects() {
       <Stack spacing={2}>
         <Item>Project 1</Item>
         <Item>Project 2</Item>
-        <Item>Project 3</Item>
       </Stack>
     </Box>
   );

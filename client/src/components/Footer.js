@@ -20,7 +20,6 @@ export default function Footer() {
       >
         <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
         <BottomNavigationAction label="LinkedIn" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Twitter" icon={<LocationOnIcon />} />
       </BottomNavigation>
     </Box>
   );
