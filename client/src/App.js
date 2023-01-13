@@ -1,18 +1,16 @@
 import "./App.css";
 import Header from "./components/Header";
-import Content1 from "./components/Content1";
-import Content2 from "./components/Content2";
-import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import Logos from "./components/Logos";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
       <div className="content-display">
-      <Content1 />
-      <Content2 />
+        <Route path="./components/Projects" element={<Projects />} />
       </div>
       <Logos />
       <Projects />
