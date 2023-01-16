@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Logos from "./components/Logos";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Route } from "react-router-dom";
 
 function App() {
   return (
