@@ -1,5 +1,7 @@
 import * as React from "react";
+import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
@@ -14,11 +16,17 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Projects() {
   return (
-    <Box sx={{ width: "100%" }}>
-      <Stack spacing={2}>
-        <Item>Project 1</Item>
-        <Item>Project 2</Item>
-      </Stack>
-    </Box>
+    <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="lg">
+        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
+          <Stack spacing={2}>
+            <Item>Logos</Item>
+            <Item>Project 1</Item>
+            <Item>Project 2</Item>
+          </Stack>
+        </Box>
+      </Container>
+    </React.Fragment>
   );
 }
