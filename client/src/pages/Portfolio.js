@@ -11,7 +11,7 @@ export default function Portfolio() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Box className="big-box"sx={{ bgcolor: "#cfe8fc", height: "100vh" }} >
+        <Box className="big-box"sx={{ bgcolor: "#cfe8fc", height: "74vh" }} >
         <div className="a-box">
           <Content1 />
         </div>
