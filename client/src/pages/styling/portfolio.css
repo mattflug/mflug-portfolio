@@ -1,0 +1,11 @@
+/* .big-box {
+    display: inline;
+} */
+
+.a-box {
+    display: inline-block;
+}
+
+.b-box {
+    display: inline-block;
+}
