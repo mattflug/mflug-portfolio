@@ -11,10 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      <div className="content-display">
-        <Route path="/" element={<Projects />} />
-      </div>
       <Route path="/about" element={<About />} />
+      <Route path="/" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
       <Portfolio />
       <Projects />
