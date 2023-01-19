@@ -8,17 +8,17 @@ import "./styling/portfolio.css";
 
 export default function Portfolio() {
   return (
-    <React.Fragment>
+    <React.Fragment className="content-display">
       <CssBaseline />
       <Container maxWidth="lg">
-        <Box className="big-box"sx={{ bgcolor: "#cfe8fc", height: "74vh" }} >
-        <div className="a-box">
-          <Content1 />
-        </div>
-        <div className="b-box">
-          <Content2 />
+        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
+          <div className="a-box">
+            <Content1 />
           </div>
-          </Box>
+          <div className="b-box">
+            <Content2 />
+          </div>
+        </Box>
       </Container>
     </React.Fragment>
   );

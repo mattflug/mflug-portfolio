@@ -9,3 +9,7 @@
 .b-box {
     display: inline-block;
 }
+
+.content-display {
+  display: inline-flex;
+}

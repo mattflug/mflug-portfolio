@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
@@ -13,8 +13,8 @@ function App() {
         <Header />
         <div className="app">
           <Routes>
+            <Route path="/mflug-portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
-            <Route path="/" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
