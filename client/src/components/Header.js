@@ -10,13 +10,10 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import { Link } from "react-router-dom";
 
 const pages = ["About", "Portfolio", "Contact Me", "Resume"];
 
 function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
   return (
     <AppBar position="static">
       <Container maxWidth="x2">
@@ -41,14 +38,7 @@ function Header() {
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              // onClick={handleOpenNavMenu}
-              color="inherit"
-            >
+            <IconButton>
               <MenuIcon />
             </IconButton>
             <Menu>
