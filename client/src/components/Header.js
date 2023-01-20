@@ -7,6 +7,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import "./styling/header.css";
 
 
 const pages = ["About", "Portfolio", "Contact Me", "Resume"];
@@ -40,10 +41,13 @@ function Header() {
                 key={page}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
-                {/* <Typography textAlign="center">
-                  <Link to={"/${page}"}>{page}</Link>
-                </Typography> */}
+                <Link
+                  className="underline"
+                  style={{ my: 2, color: "white", display: "block" }}
+                  to={"/${page}"}
+                >
+                  {page}
+                </Link>
               </Button>
             ))}
           </Box>
