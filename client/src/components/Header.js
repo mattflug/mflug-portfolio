@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import AdbIcon from "@mui/icons-material/Adb";
+import { Link } from "react-router-dom";
+
 
 const pages = ["About", "Portfolio", "Contact Me", "Resume"];
 
@@ -36,10 +38,12 @@ function Header() {
             {pages.map((page) => (
               <Button
                 key={page}
-                // onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}
+                {/* <Typography textAlign="center">
+                  <Link to={"/${page}"}>{page}</Link>
+                </Typography> */}
               </Button>
             ))}
           </Box>
