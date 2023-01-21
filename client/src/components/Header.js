@@ -44,7 +44,7 @@ function Header() {
                 <Link
                   className="underline"
                   style={{ my: 2, color: "white", display: "block" }}
-                  to={"/${page}"}
+                  to={`/${page}`}
                 >
                   {page}
                 </Link>
