@@ -5,6 +5,19 @@ import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
+import {
+  SiHtml5,
+  SiBootstrap,
+  SiJavascript,
+  SiMysql,
+  SiMongodb,
+  SiSocketdotio,
+  SiGraphql,
+  SiTailwindcss,
+  SiHandlebarsdotjs,
+  SiGithub,
+} from "react-icons/si";
+import { FaNode, FaNpm, FaReact } from "react-icons/fa";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -21,7 +34,11 @@ export default function Projects() {
       <Container maxWidth="lg">
         <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "25vh" }}>
           <Stack spacing={3}>
-            <Item>Logos</Item>
+            <Item>
+              <div>
+                <SiHtml5 />
+              </div>
+            </Item>
             <Item>Project 1</Item>
             <Item>Project 2</Item>
           </Stack>
