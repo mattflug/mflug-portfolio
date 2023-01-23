@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Content1 from "../components/Content1";
 import Content2 from "../components/Content2";
 import "./styling/portfolio.css";
-import Logos from "../components/Logos";
+import Projects from "../components/Projects";
 
 export default function Portfolio() {
   return (
@@ -20,7 +20,7 @@ export default function Portfolio() {
             <Content2 />
           </div>
         </Box>
-        <Logos />
+        <Projects />
       </Container>
     </React.Fragment>
   );
