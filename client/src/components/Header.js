@@ -8,9 +8,9 @@ import Button from "@mui/material/Button";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
 import "./styling/header.css";
-import Portfolio from "../pages/Portfolio";
 
-const pages = ["About", "Portfolio", "Contact Me", "Resume"];
+
+const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
 
 function Header() {
   return (
@@ -33,7 +33,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            <Link className="home-click" to={`/${Portfolio}`}>
+            <Link className="home-click" to={`/${'mflug-portfolio'}`}>
               Matt Flug
             </Link>
           </Typography>
