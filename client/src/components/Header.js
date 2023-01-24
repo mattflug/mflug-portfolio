@@ -9,7 +9,6 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
 import "./styling/header.css";
 
-
 const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
 
 function Header() {
@@ -33,16 +32,17 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            <Link className="home-click" to={`/${'mflug-portfolio'}`}>
+            <Link
+              className="home-click"
+              style={{ my: 2, color: "white", display: "block" }}
+              to={`/${"mflug-portfolio"}`}
+            >
               Matt Flug
             </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
+              <Button key={page}>
                 <Link
                   className="underline"
                   style={{ my: 2, color: "white", display: "block" }}

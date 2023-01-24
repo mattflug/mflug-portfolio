@@ -11,9 +11,7 @@ import {
   SiJavascript,
   SiMysql,
   SiMongodb,
-  SiSocketdotio,
   SiGraphql,
-  SiTailwindcss,
   SiHandlebarsdotjs,
   SiGithub,
 } from "react-icons/si";
@@ -37,6 +35,13 @@ export default function Projects() {
             <Item>
               <div>
                 <SiHtml5 />
+                <SiBootstrap />
+                <SiJavascript />
+                <SiMysql />
+                <SiMongodb />
+                <SiGraphql />
+                <SiHandlebarsdotjs />
+                <SiGithub />
               </div>
             </Item>
             <Item>Project 1</Item>
