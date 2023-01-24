@@ -13,8 +13,8 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["Products", "Pricing", "Blog"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
+const settings = ["About", "mflug-portfolio", "Contact", "Resume"];
 
 function Test() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -111,7 +111,7 @@ function Test() {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Matt Flug
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
