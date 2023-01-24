@@ -14,7 +14,7 @@ const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
 function Header() {
   return (
     <AppBar position="static">
-      <Container maxWidth="x2">
+      <Container maxWidth="x4">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
