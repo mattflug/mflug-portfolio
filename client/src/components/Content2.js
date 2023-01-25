@@ -1,12 +1,13 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
+import "./styling/content2.css";
 
 export default function Content2() {
   return (
-    <Box
+    <Box className="margin2"
       sx={{
-        width: 600,
-        height: 500,
+        width: 500,
+        height: 250,
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",

@@ -9,14 +9,14 @@ import Projects from "../components/Projects";
 
 export default function Portfolio() {
   return (
-    <React.Fragment className="content-display">
+    <React.Fragment >
       <CssBaseline />
       <Container maxWidth="lg">
-        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
-          <div className="a-box">
+        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "44vh" }}>
+          <div >
             <Content1 />
           </div>
-          <div className="b-box">
+          <div >
             <Content2 />
           </div>
         </Box>

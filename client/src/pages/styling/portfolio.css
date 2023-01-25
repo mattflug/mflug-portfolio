@@ -2,14 +2,15 @@
     display: inline;
 } */
 
-.a-box {
+/* .a-box {
     display: inline-block;
 }
 
 .b-box {
     display: inline-block;
-}
+} */
 
-.content-display {
-  display: inline-flex;
+.big-box {
+  display: flex;
+
 }

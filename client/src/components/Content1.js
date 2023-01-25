@@ -6,8 +6,8 @@ export default function Content1() {
   return (
     <Box className="margin1"
       sx={{
-        width: 450,
-        height: 500,
+        width: 350,
+        height: 250,
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",
