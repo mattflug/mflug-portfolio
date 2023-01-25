@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mflug-portfolio/static/css/main.6394a464.css",
+    "main.js": "/mflug-portfolio/static/js/main.39e10117.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/mflug-portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/mflug-portfolio/index.html",
+    "main.6394a464.css.map": "/mflug-portfolio/static/css/main.6394a464.css.map",
+    "main.39e10117.js.map": "/mflug-portfolio/static/js/main.39e10117.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/mflug-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6394a464.css",
+    "static/js/main.39e10117.js"
+  ]
+}
