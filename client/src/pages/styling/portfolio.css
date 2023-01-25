@@ -12,5 +12,12 @@
 
 .big-box {
   display: flex;
+}
 
+.break {
+    margin-top: 10px;
+}
+
+.border {
+    border-top: 10px;
 }

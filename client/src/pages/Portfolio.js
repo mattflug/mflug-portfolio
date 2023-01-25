@@ -9,15 +9,15 @@ import Projects from "../components/Projects";
 
 export default function Portfolio() {
   return (
-    <React.Fragment>
+    <React.Fragment className="border">
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container className="break" maxWidth="lg">
         <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "44vh" }}>
           <Content1 />
 
           <Content2 />
         </Box>
-        <Projects />
+        <Projects className="projects"/>
       </Container>
     </React.Fragment>
   );
