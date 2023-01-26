@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Box
           className="big-box"
           sx={{ bgcolor: "#cfe8fc", height: "74vh" }}

@@ -1,17 +1,8 @@
-/* .big-box {
-    display: inline;
-} */
 
-/* .a-box {
-    display: inline-block;
-}
-
-.b-box {
-    display: inline-block;
-} */
 
 .big-box {
   display: flex;
+   
 }
 
 .break {
@@ -20,4 +11,9 @@
 
 .border {
     border-top: 10px;
+    
+}
+
+.projects {
+    display: inline;
 }
