@@ -94,7 +94,7 @@ function Test() {
                   <Typography textAlign="center">
                     <Link
                       className="underline"
-                      style={{ my: 2, color: "white", display: "block" }}
+                      style={{ my: 2,  display: "block" }}
                       to={`/${page}`}
                     >
                       {page}
@@ -144,7 +144,7 @@ function Test() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="F" src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
@@ -168,7 +168,7 @@ function Test() {
                   <Typography textAlign="center">
                     <Link
                       className="underline"
-                      // style={{ my: 2, color: "white", display: "block" }}
+                      style={{ my: 2, display: "block" }}
                       to={`/${setting}`}
                     >
                       {setting}

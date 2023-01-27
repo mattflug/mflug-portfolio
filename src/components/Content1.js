@@ -1,10 +1,9 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import "./styling/content1.css";
 
 export default function Content1() {
   return (
-    <Box className="margin1"
+    <Box 
       sx={{
         width: 400,
         height: 250,
