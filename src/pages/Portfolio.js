@@ -13,10 +13,15 @@ export default function Portfolio() {
       <CssBaseline />
       <Container className="break" maxWidth={false}>
         <Box sx={{ bgcolor: "#cfe8fc", height: "90vh" }}>
-          <div className="big-box">
+          <div
+            className="big-box"
+          
+          >
             <Content1 className="cont1" />
 
-            <Content2 className="cont2" />
+            <Content2
+              className="cont2"
+            />
           </div>
           <Projects className="projects" />
         </Box>

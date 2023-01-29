@@ -1,9 +1,5 @@
 
 
-.big-box {
-  display: flex;
-   
-}
 
 .break {
     margin-top: 10px;
@@ -11,9 +7,15 @@
 
 .border {
     border-top: 10px;
+    border-color: green;
     
 }
 
-.projects {
-    display: inline;
+.cont2 {
+
 }
+
+/* .projects {
+    display: inline;
+} */
+

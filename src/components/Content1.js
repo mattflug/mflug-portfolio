@@ -7,6 +7,7 @@ export default function Content1() {
       sx={{
         width: 400,
         height: 250,
+        display: { sm: "inline-block", },
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",

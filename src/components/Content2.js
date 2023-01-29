@@ -5,8 +5,9 @@ export default function Content2() {
   return (
     <Box
       sx={{
-        width: 650,
-        height:250,
+        width: 400,
+        height: 250,
+        display: { sm: "inline-block" },
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",
