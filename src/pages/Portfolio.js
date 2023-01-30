@@ -12,7 +12,7 @@ export default function Portfolio() {
     <React.Fragment className="border">
       <CssBaseline />
       <Container className="break" maxWidth={false}>
-        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "90vh" }}>
+        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "130vh" }}>
           <div className="top-box">
             <Content1 className="cont1" />
 
