@@ -3,9 +3,9 @@ import Box from "@mui/material/Box";
 
 export default function Content1() {
   return (
-    <Box 
+    <Box
       sx={{
-        width: { xs: 100, sm: 250, md:300},
+        width: { xs: 100, sm: 250, md: 300, lg: 400, xl: 500 },
         height: 250,
         backgroundColor: "primary.dark",
         "&:hover": {
