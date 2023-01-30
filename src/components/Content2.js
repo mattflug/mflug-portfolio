@@ -5,7 +5,7 @@ export default function Content2() {
   return (
     <Box
       sx={{
-        width: { xs: 100, sm: 250, md: 300, lg:400, xl:500 },
+         width:{ xs: 100, sm: 250, md: 300, lg:400, xl:500 },
         height: 250,
         backgroundColor: "primary.dark",
         "&:hover": {
