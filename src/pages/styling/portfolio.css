@@ -8,11 +8,9 @@
 
 .big-box {
 display: flex;
-align-items: stretch;
+flex-direction: column;
+/* align-items: baseline; */
 }
 
 
-/* .projects {
-    display: inline;
-} */
 
