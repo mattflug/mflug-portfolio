@@ -5,15 +5,12 @@
     margin-top: 10px;
 }
 
-.border {
-    border-top: 10px;
-    border-color: green;
-    
+
+.big-box {
+display: flex;
+align-items: stretch;
 }
 
-.cont2 {
-
-}
 
 /* .projects {
     display: inline;
