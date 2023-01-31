@@ -23,7 +23,7 @@ export default function Portfolio() {
               md: "row",
               lg: "row",
               xl: "row",
-            },
+            }, alignItems: {xs:"center"}
           }}
         >
           <Content1 className="cont1" />
