@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import Content1 from "../components/Content1";
 import Content2 from "../components/Content2";
 import "./styling/portfolio.css";
-import Projects from "../components/Projects";
+import Buttons from "../components/Buttons";
 
 export default function Portfolio() {
   return (
@@ -16,7 +16,7 @@ export default function Portfolio() {
           className="big-box"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "50vh",
+            height: "100vh",
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -30,7 +30,7 @@ export default function Portfolio() {
 
           <Content2 className="cont2" />
         </Box>
-        <Projects className="projects" />
+        <Buttons className="projects" />
       </Container>
     </React.Fragment>
   );

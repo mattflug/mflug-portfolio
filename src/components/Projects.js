@@ -29,7 +29,7 @@ export default function Projects() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth={false}>
         <Box  sx={{ bgcolor: "#cfe8fc", height: "25vh" }}>
           <Stack spacing={3}>
             <Item>
