@@ -3,20 +3,23 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
+import bookies from "../assets/bookies.jpg";
+import registry from "../assets/the-registry.jpg";
+import rtc from "../assets/rtc.jpg";
 
 const images = [
   {
-    url: "/static/images/buttons/breakfast.jpg",
+    url: { registry },
     title: "Breakfast",
     width: "40%",
   },
   {
-    url: "/static/images/buttons/burgers.jpg",
+    url: { bookies },
     title: "Burgers",
     width: "30%",
   },
   {
-    url: "/static/images/buttons/camera.jpg",
+    url: { rtc },
     title: "Camera",
     width: "30%",
   },
