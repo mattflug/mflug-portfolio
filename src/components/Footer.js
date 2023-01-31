@@ -10,7 +10,7 @@ export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box >
+    <Box>
       <BottomNavigation
         showLabels
         value={value}
@@ -20,6 +20,7 @@ export default function Footer() {
       >
         <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
         <BottomNavigationAction label="LinkedIn" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
       </BottomNavigation>
     </Box>
   );
