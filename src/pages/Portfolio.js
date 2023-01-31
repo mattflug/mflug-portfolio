@@ -16,7 +16,7 @@ export default function Portfolio() {
           className="big-box"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "80vh",
+            height: "50vh",
             flexDirection: {
               xs: "column",
               sm: "row",
