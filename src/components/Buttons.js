@@ -3,24 +3,24 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
-import bookies from "../assets/bookies.jpg";
-import registry from "../assets/the-registry.jpg";
-import rtc from "../assets/rtc.jpg";
+let bookies = require('../assets/bookies.jpg');
+let registry = require("../assets/the-registry.jpg");
+let rtc = require("../assets/rtc.jpg");
 
 const images = [
   {
     url: { registry },
-    title: "Breakfast",
+    title: "registry",
     width: "40%",
   },
   {
     url: { bookies },
-    title: "Burgers",
+    title: "bookies",
     width: "30%",
   },
   {
     url: { rtc },
-    title: "Camera",
+    title: "rtc",
     width: "30%",
   },
 ];
