@@ -8,24 +8,24 @@ import Typography from "@mui/material/Typography";
 const images = [
   {
     url: "https://www.extraspace.com/blog/wp-content/uploads/2019/02/wedding-registry-ideas.jpg",
-    title: "registry",
+    title: "The Registry",
     width: "40%",
   },
   {
     url: "https://kottke.org/plus/misc/images/best-books-2016.jpg",
-    title: "bookies",
+    title: "Not Your Average Bookies",
     width: "30%",
   },
   {
     url: "https://cdn.britannica.com/91/234691-159-C3D7476D/What-Are-Commodities-composite-image.jpg",
-    title: "rtc",
+    title: "Real Time Commodities",
     width: "30%",
   },
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
-  height: 200,
+  height: 400,
   [theme.breakpoints.down("sm")]: {
     width: "100% !important", // Overrides inline-style
     height: 100,
