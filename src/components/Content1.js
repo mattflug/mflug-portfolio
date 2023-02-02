@@ -6,8 +6,8 @@ export default function Content1() {
     <Box
       margin={1}
       sx={{
-        width: { xs: 500, sm: 250, md: 300, lg: 400, xl: 500 },
-        height: { xs: 800, sm: 250, md: 300, lg: 400, xl: 500 },
+        width: { xs: 500, sm: 400, md: 600, lg: 800, xl: 1000 },
+        height: { xs: 800, sm: 500, md: 500, lg: 500, xl: 500 },
         backgroundColor: "primary.dark",
         "&:hover": {
           backgroundColor: "primary.main",
