@@ -10,9 +10,8 @@ export default function Contact() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth={false}>
-        <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
-          <h1>Resume</h1>
-          <img src={resume} alt="resume" className="resume" />
+        <Box className="resume-box" sx={{ bgcolor: "#cfe8fc", height: "136vh" }}>
+          <img className="resume" src={resume} alt="resume" />
         </Box>
       </Container>
     </React.Fragment>
