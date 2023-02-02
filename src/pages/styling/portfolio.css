@@ -12,6 +12,7 @@ display: flex;
 }
 
 .resume-box {
+    margin-top: 10px;
     display: flex;
       /* margin: 0 auto; */
 
@@ -19,6 +20,8 @@ display: flex;
 
 .resume {
      margin: 0 auto;
+     border-style: solid;
+     border-color: #1976d2;
 }
 
 
