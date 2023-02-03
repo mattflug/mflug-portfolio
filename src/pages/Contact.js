@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "./styling/portfolio.css";
+import Form from "../components/Form";
 
 export default function Contact() {
   return (
@@ -12,7 +13,9 @@ export default function Contact() {
         <Box
           className="big-box"
           sx={{ bgcolor: "#cfe8fc", height: "74vh" }}
-        ></Box>
+        >
+          <Form />
+        </Box>
       </Container>
     </React.Fragment>
   );
