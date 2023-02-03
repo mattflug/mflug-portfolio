@@ -27,14 +27,14 @@ export default function Portfolio() {
             alignItems: { xs: "center" },
           }}
         >
-          <Content1 className="cont1" >
+          <Content1 className="cont1">
+            
+          </Content1>
 
-          </Content1 >
-
-          <Content1 className="cont1" >
+          <Content1 className="cont1">
             <h1>hi</h1>
             <h2>hellooooo</h2>
-          </Content1 >
+          </Content1>
         </Box>
         <Buttons className="projects" />
       </Container>
