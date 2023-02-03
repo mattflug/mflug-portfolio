@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mflug-portfolio/static/css/main.6394a464.css",
-    "main.js": "/mflug-portfolio/static/js/main.39e10117.js",
+    "main.css": "/mflug-portfolio/static/css/main.63c81fea.css",
+    "main.js": "/mflug-portfolio/static/js/main.95f1139e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/mflug-portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/mbf-resume.jpg": "/mflug-portfolio/static/media/mbf-resume.248e6f3ceaed648220c5.jpg",
     "index.html": "/mflug-portfolio/index.html",
-    "main.6394a464.css.map": "/mflug-portfolio/static/css/main.6394a464.css.map",
-    "main.39e10117.js.map": "/mflug-portfolio/static/js/main.39e10117.js.map",
+    "main.63c81fea.css.map": "/mflug-portfolio/static/css/main.63c81fea.css.map",
+    "main.95f1139e.js.map": "/mflug-portfolio/static/js/main.95f1139e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/mflug-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6394a464.css",
-    "static/js/main.39e10117.js"
+    "static/css/main.63c81fea.css",
+    "static/js/main.95f1139e.js"
   ]
 }
