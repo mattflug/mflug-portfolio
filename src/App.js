@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
+        <Header />
         <div className="app">
           <Routes>
             <Route path="/mflug-portfolio" element={<Portfolio />} />
