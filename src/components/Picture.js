@@ -1,6 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
+
 export default function Picture() {
   return (
     <Box
@@ -15,7 +16,6 @@ export default function Picture() {
         },
       }}
     >
-      Picture
     </Box>
   );
 }
