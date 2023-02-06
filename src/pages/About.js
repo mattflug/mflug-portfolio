@@ -10,6 +10,12 @@ export default function About() {
       <CssBaseline />
       <Container maxWidth="xl">
         <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
+          <img
+            src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
+            alt=""
+          ></img>
+
+          <h1 className="welcome">Welcome to mflug's portfolio!</h1>
         </Box>
       </Container>
     </React.Fragment>
