@@ -2,10 +2,10 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import Content1 from "../components/Content1";
+
 
 import "./styling/portfolio.css";
-import Buttons from "../components/Buttons";
+import Projects from "../components/Projects";
 
 export default function Portfolio() {
   return (
@@ -27,10 +27,14 @@ export default function Portfolio() {
             alignItems: { xs: "center" },
           }}
         >
-          <Content1 className="cont1" />
+          <img
+            src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
+            alt=""
+          ></img>
 
+          <h1 className="welcome">Welcome to mflug's portfolio!</h1>
         </Box>
-        <Buttons className="projects" />
+        <Projects className="projects" />
       </Container>
     </React.Fragment>
   );
