@@ -1,6 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
+
 export default function Content1() {
   return (
     <Box
@@ -15,7 +16,7 @@ export default function Content1() {
         },
       }}
     >
-      <img src="../assets/prof-pic.jpeg" alt=""></img>
+      <img src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all" alt=""></img>
     </Box>
   );
 }
