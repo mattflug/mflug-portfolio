@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 
 
-import "./styling/portfolio.css";
+import "../components/styling/portfolio.css";
 import Projects from "../components/Projects";
 
 export default function Portfolio() {
