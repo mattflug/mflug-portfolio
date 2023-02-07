@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
-import "./styling/header.css";
+import "./styling/portfolio.css";
 
 const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
 const settings = ["About", "mflug-portfolio", "Contact", "Resume"];
@@ -46,7 +46,6 @@ function Test() {
             variant="h6"
             noWrap
             component="a"
-            href="/mflug-portfolio"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -109,7 +108,6 @@ function Test() {
             variant="h5"
             noWrap
             component="a"
-            href=""
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
