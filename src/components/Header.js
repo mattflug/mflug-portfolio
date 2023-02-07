@@ -15,8 +15,8 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
 import "./styling/portfolio.css";
 
-const pages = ["About", "mflug-portfolio", "Contact", "Resume"];
-const settings = ["About", "mflug-portfolio", "Contact", "Resume"];
+const pages = ["mflug-portfolio", "About", "Contact", "Resume"];
+const settings = ["mflug-portfolio", "About", "Contact", "Resume"];
 
 function Test() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

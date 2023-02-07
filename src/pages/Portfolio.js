@@ -27,7 +27,7 @@ export default function Portfolio() {
             alignItems: { xs: "center" },
           }}
         >
-          <img
+          <img className="content1"
             src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
             alt=""
           ></img>

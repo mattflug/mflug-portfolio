@@ -16,7 +16,7 @@ export default function About() {
             alt=""
           ></img>
 
-          <h1 className="welcome">I'm a Full-Stack developer from Denver CO. Right now, I'm building with React and MongoDB to sharpen by front and backend skills. Please reach out if you'd like to collaborate on a project!</h1>
+          <h1 className="welcome">I'm a Full-Stack developer from Denver CO. Right now, I'm building with React and MongoDB to sharpen my skills. Please reach out if you'd like to collaborate on a project!</h1>
         </Box>
       </Container>
     </React.Fragment>
