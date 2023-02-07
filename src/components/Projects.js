@@ -8,17 +8,17 @@ import Typography from "@mui/material/Typography";
 const images = [
   {
     url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
-    title: "The Registry",
+    title: "The-Registry",
     width: "40%",
   },
   {
     url: "https://cdn.pixabay.com/photo/2013/07/13/11/51/book-158812_1280.png",
-    title: "Not Your Average Bookies",
+    title: "NotYourAverageBookies",
     width: "30%",
   },
   {
     url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
-    title: "Real Time Commodities",
+    title: "RealTimeCommodities",
     width: "30%",
   },
 ];
@@ -95,6 +95,7 @@ export default function Projects() {
       {images.map((image) => (
         <ImageButton
           focusRipple
+          href={`https://github.com/mattflug/${image.title}`}
           key={image.title}
           style={{
             width: image.width,
