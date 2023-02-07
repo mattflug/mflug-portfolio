@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "../components/styling/portfolio.css";
+import Pic from "../assets/prof-pic.jpeg"
 
 export default function About() {
   return (
@@ -11,11 +12,11 @@ export default function About() {
       <Container maxWidth="xl">
         <Box className="big-box" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
           <img
-            src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
+            src={Pic}
             alt=""
           ></img>
 
-          <h1 className="welcome">Welcome to mflug's portfolio!</h1>
+          <h1 className="welcome">I'm a Full-Stack developer from Denver CO. Right now, I'm building with React and MongoDB to sharpen by front and backend skills. Please reach out if you'd like to collaborate on a project!</h1>
         </Box>
       </Container>
     </React.Fragment>
