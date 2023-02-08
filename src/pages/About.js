@@ -12,7 +12,7 @@ export default function About() {
       <Container maxWidth="xl">
         <Box
           className="big-box-about"
-          sx={{ bgcolor: "#cfe8fc", height: "100vh" }}
+          sx={{ bgcolor: "#cfe8fc", height: "120vh" }}
         >
           <img className="massive" src={Pic} alt=""></img>
           <div className="side-box">
