@@ -4,6 +4,8 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "../components/styling/portfolio.css";
 import resume from "../assets/mbf-resume.jpg"
+import resumepdf from "../assets/mbf-pdf.pdf"
+import Button from "@mui/material/Button";
 
 export default function Contact() {
   return (
@@ -16,6 +18,9 @@ export default function Contact() {
         >
           <h1 className="welcome">Resume</h1>
           <img className="resume" src={resume} alt="resume" />
+          <a className="underline"href={resumepdf} download>
+            <Button variant="contained">Download</Button>
+          </a>
         </Box>
       </Container>
     </React.Fragment>
