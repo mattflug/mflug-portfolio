@@ -12,7 +12,7 @@ export default function Contact() {
       <Container maxWidth={false}>
         <Box
           className="resume-box"
-          sx={{ bgcolor: "#cfe8fc", height: "136vh" }}
+          sx={{ bgcolor: "#cfe8fc", height: "170vh" }}
         >
           <h1 className="welcome">Resume</h1>
           <img className="resume" src={resume} alt="resume" />

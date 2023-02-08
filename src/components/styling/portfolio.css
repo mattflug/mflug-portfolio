@@ -1,14 +1,10 @@
-
-
-
 .break {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-
 .big-box {
-display: flex;
-/* align-items: center; */
+  display: flex;
+  /* align-items: center; */
 }
 
 .big-contact {
@@ -18,25 +14,26 @@ display: flex;
 }
 
 .resume-box {
-    margin-top: 10px;
-    display: flex;
-      /* margin: 0 auto; */
-
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 auto; */
 }
 
 .resume {
-     margin: 0 auto;
-     border-style: solid;
-     border-color: #1976d2;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #1976d2;
+  max-width: 100%;
+  max-height: 100%;
+  
 }
 
-
-
-.underline{
-text-decoration:none;
-color: #1976d2;
+.underline {
+  text-decoration: none;
+  color: #1976d2;
 }
-
 
 .form {
   margin: 20px;
@@ -55,6 +52,6 @@ color: #1976d2;
 }
 
 .content1 {
-   max-width:100%;
-max-height:100%; 
+  max-width: 100%;
+  max-height: 100%;
 }
