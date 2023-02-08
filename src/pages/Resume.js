@@ -18,7 +18,7 @@ export default function Contact() {
         >
           <h1 className="welcome">Resume</h1>
           <img className="resume" src={resume} alt="resume" />
-          <a className="underline"href={resumepdf} download>
+          <a className="underline-res"href={resumepdf} download>
             <Button variant="contained">Download</Button>
           </a>
         </Box>
