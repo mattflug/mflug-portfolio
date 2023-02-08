@@ -10,16 +10,19 @@ const images = [
     url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
     title: "The-Registry",
     width: "40%",
+    link: "https://github.com/mattflug/The-Registry",
   },
   {
     url: "https://cdn.pixabay.com/photo/2013/07/13/11/51/book-158812_1280.png",
     title: "NotYourAverageBookies",
     width: "30%",
+    link: "https://github.com/mattflug/NotYourAverageBookies",
   },
   {
     url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
     title: "RealTimeCommodities",
     width: "30%",
+    link: "https://github.com/mattflug/RealTimeCommodities",
   },
 ];
 
@@ -95,30 +98,32 @@ export default function Projects() {
       {images.map((image) => (
         <ImageButton
           focusRipple
-          href={`https://github.com/mattflug/${image.title}`}
+          variant="contained"
           key={image.title}
           style={{
             width: image.width,
           }}
         >
-          <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
-          <ImageBackdrop className="MuiImageBackdrop-root" />
-          <Image>
-            <Typography
-              component=""
-              variant="subtitle1"
-              color="inherit"
-              sx={{
-                position: "relative",
-                p: 4,
-                pt: 2,
-                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-              }}
-            >
-              {image.title}
-              <ImageMarked className="MuiImageMarked-root" />
-            </Typography>
-          </Image>
+          <a href={image.link} target="_blank" rel="noreferrer">
+            <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
+            <ImageBackdrop className="MuiImageBackdrop-root" />
+            <Image>
+              <Typography
+                component=""
+                variant="subtitle1"
+                color="inherit"
+                sx={{
+                  position: "relative",
+                  p: 4,
+                  pt: 2,
+                  pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                }}
+              >
+                {image.title}
+                <ImageMarked className="MuiImageMarked-root" />
+              </Typography>
+            </Image>
+          </a>
         </ImageButton>
       ))}
     </Box>
