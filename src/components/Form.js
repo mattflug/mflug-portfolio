@@ -106,7 +106,7 @@ function Form() {
         >
           Submit
         </button>
-        <p className="messageSent">Message Sent!</p>
+        <p className="messageSent"></p>
         {errorMessage && <p className="error-text">{errorMessage}</p>}
       </form>
     </div>

@@ -18,7 +18,13 @@ export default function Footer() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
+        <a
+          href="https://github.com/mattflug/mflug-portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
+        </a>
         <BottomNavigationAction label="LinkedIn" icon={<FavoriteIcon />} />
         <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
       </BottomNavigation>
