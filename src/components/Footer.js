@@ -18,15 +18,23 @@ export default function Footer() {
           setValue(newValue);
         }}
       >
+        <a href="https://github.com/mattflug" target="_blank" rel="noreferrer">
+          <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
+        </a>
         <a
-          href="https://github.com/mattflug/mflug-portfolio"
+          href="https://www.linkedin.com/in/matthew-flug1/"
           target="_blank"
           rel="noreferrer"
         >
-          <BottomNavigationAction label="Github" icon={<RestoreIcon />} />
+          <BottomNavigationAction label="LinkedIn" icon={<FavoriteIcon />} />
         </a>
-        <BottomNavigationAction label="LinkedIn" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        <a
+          href="https://twitter.com/matthewflug"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BottomNavigationAction label="Twitter" icon={<LocationOnIcon />} />
+        </a>
       </BottomNavigation>
     </Box>
   );
