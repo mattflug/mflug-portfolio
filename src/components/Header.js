@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import ScoreboardIcon from "@mui/icons-material/Scoreboard";
 import { Link } from "react-router-dom";
 import "./styling/portfolio.css";
 
@@ -34,7 +34,7 @@ function Test() {
     <AppBar position="static">
       <Container maxWidth={false}>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <ScoreboardIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -86,7 +86,7 @@ function Test() {
                   <Typography textAlign="center">
                     <Link
                       className="underline"
-                      style={{ my: 2,  display: "block" }}
+                      style={{ my: 2, display: "block" }}
                       to={`/${page}`}
                     >
                       {page}
@@ -96,7 +96,7 @@ function Test() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <ScoreboardIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -114,7 +114,10 @@ function Test() {
           >
             Matt Flug
           </Typography>
-          <Box className="header-margin" sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            className="header-margin"
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+          >
             {pages.map((page) => (
               <Button
                 key={page}
@@ -131,7 +134,6 @@ function Test() {
               </Button>
             ))}
           </Box>
-
         </Toolbar>
       </Container>
     </AppBar>
