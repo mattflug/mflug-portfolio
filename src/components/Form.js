@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./styling/portfolio.css";
+import "../components/portfolio.css";
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";

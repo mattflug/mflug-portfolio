@@ -11,24 +11,20 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import ScoreboardIcon from "@mui/icons-material/Scoreboard";
 import { Link } from "react-router-dom";
-import "./styling/portfolio.css";
+import "../components/portfolio.css";
 
 const pages = ["mflug-portfolio", "About", "Contact", "Resume"];
 
 function Test() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
- 
 
   return (
     <AppBar position="static">

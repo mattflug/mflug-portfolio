@@ -2,9 +2,7 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-
-
-import "../components/styling/portfolio.css";
+import "../components/portfolio.css";
 import Projects from "../components/Projects";
 
 export default function Portfolio() {
