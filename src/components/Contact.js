@@ -1,13 +1,17 @@
-import React, { useState, useRef } from "react";
-import "../components/Portfolio.css";
 
+import React, { useState, useRef } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import "./Portfolio.css";
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 import emailjs from "@emailjs/browser";
 
 
-function Form() {
-  const form = useRef();
+
+export default function Contact() {
+    const form = useRef();
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState("");
@@ -72,8 +76,13 @@ function Form() {
       );
     e.target.reset();
   };
-
   return (
+    <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth={false}>
+        <Box className="big-contact" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
+          <h1 className="welcome">Contact</h1>
+            return (
     <div>
       <p>Hello {name}</p>
       <form className="form" ref={form}>
@@ -111,6 +120,8 @@ function Form() {
       </form>
     </div>
   );
+        </Box>
+      </Container>
+    </React.Fragment>
+  );
 }
-
-export default Form;
