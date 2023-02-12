@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import "./Portfolio.css";
+import "./styling.css";
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 import emailjs from "@emailjs/browser";
