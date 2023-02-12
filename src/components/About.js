@@ -11,7 +11,7 @@ export default function About() {
       <CssBaseline />
       <Container maxWidth="xl">
         <Box
-          className="big-box-about"
+          className="big-about"
           sx={{ bgcolor: "#cfe8fc", height: "120vh" }}
         >
           <img className="massive" src={Pic} alt=""></img>

@@ -1,3 +1,8 @@
+/* about page css */
+.big-about {
+  display: flex;
+}
+
 .break {
   margin-top: 10px;
 }
@@ -7,11 +12,6 @@
   /* align-items: center; */
 }
 
-.big-box-about {
-  display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
-}
 
 .big-contact {
   display: flex;
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .big-box-about {
+  .big-about {
     flex-direction: column;
     align-items: center;
   }
