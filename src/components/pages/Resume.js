@@ -2,7 +2,7 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import "../components/portfolio.css";
+import "../../components/Portfolio.css";
 import resume from "../assets/mbf-resume.jpg"
 import resumepdf from "../assets/mbf-pdf.pdf"
 import Button from "@mui/material/Button";

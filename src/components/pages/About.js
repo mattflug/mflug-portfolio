@@ -2,8 +2,8 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import "../components/portfolio.css";
-import Pic from "../assets/prof-pic.jpeg"
+import "../../components/Portfolio.css";
+import Pic from "../"
 
 export default function About() {
   return (

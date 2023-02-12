@@ -2,8 +2,8 @@ import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import "../components/portfolio.css";
-import Projects from "../components/Projects";
+import "../../components/Portfolio.css";
+import Projects from "../Projects";
 
 export default function Portfolio() {
   return (
@@ -25,7 +25,8 @@ export default function Portfolio() {
             alignItems: { xs: "center" },
           }}
         >
-          <img className="content1"
+          <img
+            className="content1"
             src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
             alt=""
           ></img>
