@@ -11,7 +11,6 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import ScoreboardIcon from "@mui/icons-material/Scoreboard";
 import { Link } from "react-router-dom";
-import "../../components/Portfolio.css";
 
 const pages = ["mflug-portfolio", "About", "Contact", "Resume"];
 
