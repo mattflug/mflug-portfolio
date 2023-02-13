@@ -7,6 +7,7 @@ import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import "./styling.css";
 
+// images object linking to projects
 const images = [
   {
     url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
@@ -28,6 +29,7 @@ const images = [
   },
 ];
 
+// images button linking to projects
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
   height: 400,
@@ -92,16 +94,17 @@ const ImageMarked = styled("span")(({ theme }) => ({
   transition: theme.transitions.create("opacity"),
 }));
 
+// portfolio function
 export default function Portfolio() {
   return (
     <React.Fragment className="border">
       <CssBaseline />
-      <Container className="break" maxWidth={false}>
+      <Container className="main-port" maxWidth={false}>
         <Box
-          className="big-box"
+          className="blue-box-port"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "50vh",
+            height: "150vh",
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -115,12 +118,11 @@ export default function Portfolio() {
           <img
             className="content1"
             src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
-            alt=""
+            alt=" Male coding at desk"
           ></img>
 
           <h1 className="welcome">Welcome to mflug's portfolio!</h1>
-        </Box>
-        <Box
+        <Box className="projects"
           sx={{
             display: "flex",
             flexWrap: "wrap",
@@ -159,6 +161,7 @@ export default function Portfolio() {
               </a>
             </ImageButton>
           ))}
+        </Box>
         </Box>
       </Container>
     </React.Fragment>
