@@ -55,7 +55,7 @@
 
 /* Portfolio Page (& .welcome)*/
 .blue-box-port {
-  display: flex;
+  /* display: flex; */
   margin-top: 10px;
 }
 
