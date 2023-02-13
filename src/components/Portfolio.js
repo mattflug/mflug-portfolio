@@ -7,7 +7,7 @@ import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import "./styling.css";
 
-// images object linking to projects
+// images object for projects
 const images = [
   {
     url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
@@ -29,7 +29,7 @@ const images = [
   },
 ];
 
-// images button linking to projects
+
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
   height: 400,
@@ -94,7 +94,6 @@ const ImageMarked = styled("span")(({ theme }) => ({
   transition: theme.transitions.create("opacity"),
 }));
 
-// portfolio function
 export default function Portfolio() {
   return (
     <React.Fragment className="border">
@@ -104,7 +103,7 @@ export default function Portfolio() {
           className="blue-box-port"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "125vh",
+            height: "90vh",
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -121,7 +120,7 @@ export default function Portfolio() {
             alt=" Male coding at desk"
           ></img>
 
-          <h1 className="welcome">Welcome to mflug's portfolio!</h1>
+          <h1 className="content2">Welcome to mflug's portfolio!</h1>
         <Box className="projects"
           sx={{
             display: "flex",
