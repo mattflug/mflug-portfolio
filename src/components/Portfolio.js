@@ -12,26 +12,26 @@ const images = [
   {
     url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
     title: "The-Registry",
-    width: "40%",
+    width: "32%",
     link: "https://github.com/mattflug/The-Registry",
   },
   {
     url: "https://cdn.pixabay.com/photo/2013/07/13/11/51/book-158812_1280.png",
     title: "NotYourAverageBookies",
-    width: "30%",
+    width: "32%",
     link: "https://github.com/mattflug/NotYourAverageBookies",
   },
   {
     url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
     title: "RealTimeCommodities",
-    width: "30%",
+    width: "32%",
     link: "https://github.com/mattflug/RealTimeCommodities",
   },
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
-  height: 400,
+  height: 300,
   [theme.breakpoints.down("sm")]: {
     width: "100% !important", // Overrides inline-style
     height: 100,
@@ -102,7 +102,7 @@ export default function Portfolio() {
           className="blue-box-port"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "90vh",
+            height: "150vh",
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -133,12 +133,15 @@ export default function Portfolio() {
           >
             {images.map((image) => (
               <ImageButton
+                className="projects2"
                 focusRipple
                 variant="contained"
                 key={image.title}
                 style={{
                   width: image.width,
+                  margin: "10",
                 }}
+      
               >
                 <a href={image.link} target="_blank" rel="noreferrer">
                   <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />

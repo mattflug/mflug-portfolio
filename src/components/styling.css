@@ -55,8 +55,8 @@
 
 /* Portfolio Page (& .welcome)*/
 .blue-box-port {
-  /* display: flex; */
   margin-top: 10px;
+  position: relative;
 }
 
 .content1 {
@@ -65,17 +65,20 @@
   max-height: 100%;
 }
 
-.top-content {
-  display: block;
-}
-
 .content2 {
+  display: inline-block;
   max-width: 100%;
   max-height: 100%;
   margin: 10px;
   align-items: center;
   font-family: monospace;
   color: #1976d2;
+}
+
+
+.projects {
+
+  margin: 10px;
 }
 
 /* Resume Page*/
