@@ -102,7 +102,7 @@ export default function Portfolio() {
           className="blue-box-port"
           sx={{
             bgcolor: "#cfe8fc",
-            height: "150vh",
+            height: "120vh",
             flexDirection: {
               xs: "column",
               sm: "row",

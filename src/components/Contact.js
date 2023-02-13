@@ -4,7 +4,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "./styling.css";
-// Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 import emailjs from "@emailjs/browser";
 
@@ -80,9 +79,8 @@ export default function Contact() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth={false}>
-        <Box className="big-contact" sx={{ bgcolor: "#cfe8fc", height: "74vh" }}>
+        <Box className="big-contact" sx={{ bgcolor: "#cfe8fc", height: "70vh" }}>
           <h1 className="welcome">Contact</h1>
-            return (
     <div>
       <p>Hello {name}</p>
       <form className="form" ref={form}>
@@ -119,7 +117,6 @@ export default function Contact() {
         {errorMessage && <p className="error-text">{errorMessage}</p>}
       </form>
     </div>
-  );
         </Box>
       </Container>
     </React.Fragment>
