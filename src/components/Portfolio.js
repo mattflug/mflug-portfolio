@@ -29,7 +29,6 @@ const images = [
   },
 ];
 
-
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
   height: 400,
@@ -114,53 +113,56 @@ export default function Portfolio() {
             alignItems: { xs: "center" },
           }}
         >
-          <img
-            className="content1"
-            src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
-            alt=" Male coding at desk"
-          ></img>
+          <div className="top-content">
+            <img
+              className="content1"
+              src="https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-947663966-e1621956778415.jpg?fit=750%2C380&strip=all"
+              alt=" Male coding at desk"
+            ></img>
 
-          <h1 className="content2">Welcome to mflug's portfolio!</h1>
-        <Box className="projects"
-          sx={{
-            display: "flex",
-            flexWrap: "wrap",
-            minWidth: 300,
-            width: "100%",
-          }}
-        >
-          {images.map((image) => (
-            <ImageButton
-              focusRipple
-              variant="contained"
-              key={image.title}
-              style={{
-                width: image.width,
-              }}
-            >
-              <a href={image.link} target="_blank" rel="noreferrer">
-                <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
-                <ImageBackdrop className="MuiImageBackdrop-root" />
-                <Image>
-                  <Typography
-                    component=""
-                    variant="subtitle1"
-                    color="inherit"
-                    sx={{
-                      position: "relative",
-                      p: 4,
-                      pt: 2,
-                      pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-                    }}
-                  >
-                    {image.title}
-                    <ImageMarked className="MuiImageMarked-root" />
-                  </Typography>
-                </Image>
-              </a>
-            </ImageButton>
-          ))}
-        </Box>
+            <h1 className="content2">Welcome to Matt's Portfolio!</h1>
+          </div>
+          <Box
+            className="projects"
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              minWidth: 300,
+              width: "100%",
+            }}
+          >
+            {images.map((image) => (
+              <ImageButton
+                focusRipple
+                variant="contained"
+                key={image.title}
+                style={{
+                  width: image.width,
+                }}
+              >
+                <a href={image.link} target="_blank" rel="noreferrer">
+                  <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
+                  <ImageBackdrop className="MuiImageBackdrop-root" />
+                  <Image>
+                    <Typography
+                      component=""
+                      variant="subtitle1"
+                      color="inherit"
+                      sx={{
+                        position: "relative",
+                        p: 4,
+                        pt: 2,
+                        pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                      }}
+                    >
+                      {image.title}
+                      <ImageMarked className="MuiImageMarked-root" />
+                    </Typography>
+                  </Image>
+                </a>
+              </ImageButton>
+            ))}
+          </Box>
         </Box>
       </Container>
     </React.Fragment>
