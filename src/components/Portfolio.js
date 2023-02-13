@@ -121,7 +121,6 @@ export default function Portfolio() {
           <h1 className="welcome">Welcome to mflug's portfolio!</h1>
         </Box>
         <Box
-          className="projects"
           sx={{
             display: "flex",
             flexWrap: "wrap",
