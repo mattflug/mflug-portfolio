@@ -24,7 +24,7 @@ const images = [
   {
     url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
     title: "RealTimeCommodities",
-    width: "32%",
+    width: "31%",
     link: "https://github.com/mattflug/RealTimeCommodities",
   },
 ];
@@ -139,7 +139,7 @@ export default function Portfolio() {
                 key={image.title}
                 style={{
                   width: image.width,
-                  margin: "10",
+                  margin: "10px"
                 }}
       
               >
