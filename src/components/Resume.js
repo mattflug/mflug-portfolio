@@ -13,12 +13,12 @@ export default function Contact() {
       <CssBaseline />
       <Container maxWidth={false}>
         <Box
-          className="resume-box"
+          className="blue-box-res"
           sx={{ bgcolor: "#cfe8fc", height: "170vh" }}
         >
           <h1 className="welcome">Resume</h1>
           <img className="resume" src={resume} alt="resume" />
-          <a className="underline-res"href={resumepdf} download>
+          <a className="btn-res"href={resumepdf} download>
             <Button variant="contained">Download</Button>
           </a>
         </Box>

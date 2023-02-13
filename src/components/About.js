@@ -11,11 +11,11 @@ export default function About() {
       <CssBaseline />
       <Container maxWidth="xl">
         <Box
-          className="big-about"
+          className="blue-box-about"
           sx={{ bgcolor: "#cfe8fc", height: "120vh" }}
         >
-          <img className="massive" src={Pic} alt=""></img>
-          <div className="side-box">
+          <img className="about-content1" src={Pic} alt="Matt's Resume"></img>
+          <div className="about-content2">
             <h1 className="about">About</h1>
 
             <h2 className="about">

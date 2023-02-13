@@ -1,17 +1,15 @@
 /* About Page*/
-.big-about {
+.blue-box-about {
   display: flex;
+ 
 }
 
-.massive {
-  max-width: 70%;
-  max-height: 70%;
+.about-content1 {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.side-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.about-content2 {
   max-width: 100%;
   max-height: 100%;
 }
@@ -21,6 +19,7 @@
   max-height: 100%;
   font-family: monospace;
   color: #1976d2;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -75,7 +74,7 @@
 }
 
 /* Resume Page*/
-.resume-box {
+.blue-box-res {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,14 +82,12 @@
 
 .resume {
   margin: 0 auto;
-  /* border-style: solid; */
-  /* border-color: #1976d2; */
   max-width: 100%;
   max-height: 100%;
   text-decoration: none;
 }
 
-.underline-res {
+.btn-res {
   text-decoration: none;
   color: #1976d2;
   margin-top: 13px;
