@@ -99,10 +99,15 @@ export default function Portfolio() {
       <CssBaseline />
       <Container maxWidth={false}>
         <Box
-          
           sx={{
             bgcolor: "#cfe8fc",
-            height: "120vh",
+            height: {
+              xs: "130vh",
+              sm: "125vh",
+              md: "120vh",
+              lg: "115vh",
+              xl: "100vh",
+            },
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -139,9 +144,8 @@ export default function Portfolio() {
                 key={image.title}
                 style={{
                   width: image.width,
-                  margin: "10px"
+                  margin: "10px",
                 }}
-      
               >
                 <a href={image.link} target="_blank" rel="noreferrer">
                   <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
