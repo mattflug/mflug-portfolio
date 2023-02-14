@@ -97,9 +97,9 @@ export default function Portfolio() {
   return (
     <React.Fragment className="border">
       <CssBaseline />
-      <Container className="main-port" maxWidth={false}>
+      <Container maxWidth={false}>
         <Box
-          className="blue-box-port"
+          
           sx={{
             bgcolor: "#cfe8fc",
             height: "120vh",
