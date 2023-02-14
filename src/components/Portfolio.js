@@ -102,11 +102,11 @@ export default function Portfolio() {
           sx={{
             bgcolor: "#cfe8fc",
             height: {
-              xs: "130vh",
-              sm: "125vh",
-              md: "120vh",
-              lg: "115vh",
-              xl: "100vh",
+              xs: "160vh",
+              sm: "180vh",
+              md: "190vh",
+              lg: "105vh",
+              xl: "150vh",
             },
             flexDirection: {
               xs: "column",

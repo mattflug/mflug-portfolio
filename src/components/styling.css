@@ -55,6 +55,7 @@
 /* Portfolio Page (& .welcome)*/
 .top-content {
   display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,10 +80,10 @@
 
 
 .content2 {
-  display: inline-block;
+  margin: 10px;
+  align-items: center;
   max-width: 100%;
   max-height: 100%;
-  margin: 10px;
   font-family: monospace;
   color: #1976d2;
 }
