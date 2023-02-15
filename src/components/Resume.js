@@ -15,7 +15,7 @@ export default function Contact() {
         <Box
           className="blue-box-res"
           sx={{ bgcolor: "#cfe8fc", height: {
-              xs: "150vh",
+              xs: "120vh",
               sm: "170vh",
               md: "170vh",
               lg: "175vh",

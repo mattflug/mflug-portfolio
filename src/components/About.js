@@ -15,7 +15,7 @@ export default function About() {
           sx={{
             bgcolor: "#cfe8fc",
             height: {
-              xs: "140vh",
+              xs: "120vh",
               sm: "155vh",
               md: "120vh",
               lg: "105vh",

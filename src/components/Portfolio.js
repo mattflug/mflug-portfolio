@@ -102,7 +102,7 @@ export default function Portfolio() {
           sx={{
             bgcolor: "#cfe8fc",
             height: {
-              xs: "110vh",
+              xs: "100vh",
               sm: "130vh",
               md: "140vh",
               lg: "105vh",
