@@ -12,13 +12,22 @@ export default function About() {
       <Container maxWidth="lg">
         <Box
           className="blue-box-about"
-          sx={{ bgcolor: "#cfe8fc", height: "120vh" }}
+          sx={{
+            bgcolor: "#cfe8fc",
+            height: {
+              xs: "160vh",
+              sm: "140vh",
+              md: "120vh",
+              lg: "105vh",
+              xl: "150vh",
+            },
+          }}
         >
           <img className="about-content1" src={Pic} alt="Matt's Resume"></img>
           <div className="about-content2">
-            <h1 className="about">About</h1>
+            <h1 className="about1">About</h1>
 
-            <h2 className="about">
+            <h2 className="about2">
               I'm a Full-Stack developer from Denver CO. Right now, I'm building
               with React and MongoDB to sharpen my skills. Please reach out if
               you'd like to collaborate on a project!
