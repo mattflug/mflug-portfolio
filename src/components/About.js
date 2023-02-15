@@ -16,7 +16,7 @@ export default function About() {
             bgcolor: "#cfe8fc",
             height: {
               xs: "120vh",
-              sm: "155vh",
+              sm: "135vh",
               md: "120vh",
               lg: "105vh",
               xl: "150vh",

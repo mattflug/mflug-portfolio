@@ -16,7 +16,7 @@ export default function Contact() {
           className="blue-box-res"
           sx={{ bgcolor: "#cfe8fc", height: {
               xs: "120vh",
-              sm: "170vh",
+              sm: "140vh",
               md: "170vh",
               lg: "175vh",
               xl: "200vh",
