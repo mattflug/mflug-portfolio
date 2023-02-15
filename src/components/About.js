@@ -9,7 +9,7 @@ export default function About() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <Box
           className="blue-box-about"
           sx={{ bgcolor: "#cfe8fc", height: "120vh" }}
