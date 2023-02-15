@@ -22,12 +22,12 @@ flex-direction: row;
   
 }
 
-/* @media screen and (max-width: 600px) {
-  .big-about {
+@media screen and (max-width: 600px) {
+  .blue-box-about {
     flex-direction: column;
     align-items: center;
   }
-} */
+}
 
 /* Contact page (.welcome on Portfolio, Resume)*/
 .big-contact {
