@@ -3,4 +3,4 @@ A Professional Portfolio built using React. A hub to store projects. Several pro
 The site is deployed on Github Pages here: [Mflug-Portfolio](https://mattflug.github.io/mflug-portfolio/).
 
 
-![alt text](./public/picjpg.jpg)
+![alt text](./assets/picjpg.jpg)
