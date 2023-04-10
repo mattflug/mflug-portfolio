@@ -14,7 +14,7 @@ import robotump from "../assets/robotump.jpg";
 const images = [
   {
     url: robotump,
-    title: "Robot Umpire",
+    title: "Robot Umpire: Current Project",
     width: "32%",
     link: "https://github.com/mattflug/RobotUmpire",
   },
