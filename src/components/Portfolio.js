@@ -6,24 +6,27 @@ import { styled } from "@mui/material/styles";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import "./styling.css";
+import picjpg from "../assets/picjpg.jpg"
+import rtc from "../assets/rtc.jpg";
+import robotump from "../assets/robotump.jpg";
 
 // images object for projects
 const images = [
   {
-    url: "https://cdn-icons-png.flaticon.com/512/4305/4305969.png",
-    title: "The-Registry",
+    url: robotump,
+    title: "Robot Umpire",
     width: "32%",
-    link: "https://github.com/mattflug/The-Registry",
+    link: "https://github.com/mattflug/RobotUmpire",
   },
   {
-    url: "https://cdn.pixabay.com/photo/2013/07/13/11/51/book-158812_1280.png",
-    title: "NotYourAverageBookies",
+    url: picjpg,
+    title: "Matt's React Portfolio",
     width: "32%",
-    link: "https://github.com/mattflug/NotYourAverageBookies",
+    link: "https://mattflug.github.io/mflug-portfolio",
   },
   {
-    url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
-    title: "RealTimeCommodities",
+    url: rtc,
+    title: "Real Time Commodities",
     width: "31%",
     link: "https://l1keafox.github.io/RealTimeCommodities/",
   },
