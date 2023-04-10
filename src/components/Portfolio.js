@@ -25,7 +25,7 @@ const images = [
     url: "https://dq4tmpgykghg0.cloudfront.net/wp-content/uploads/2018/02/ethereum-logo.jpg",
     title: "RealTimeCommodities",
     width: "31%",
-    link: "https://github.com/mattflug/RealTimeCommodities",
+    link: "https://l1keafox.github.io/RealTimeCommodities/",
   },
 ];
 
