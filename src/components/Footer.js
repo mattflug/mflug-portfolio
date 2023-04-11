@@ -29,7 +29,7 @@ export default function Footer() {
           <BottomNavigationAction label="LinkedIn" icon={<LinkedIn />} />
         </a>
         <a
-          href="https://twitter.com/matthewflug"
+          href="https://twitter.com/mattflug"
           target="_blank"
           rel="noreferrer"
         >
