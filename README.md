@@ -1,8 +1,13 @@
-# Robot Umpire
+# MFlug Portfolio
 
 ## Description
 
-A source to grade the accuracy of the Umpire's calls stri in each MLB game.
+A Professional Portfolio built using React. A hub to store projects. Projects will involve sports and economics.
+
+The site is deployed on Github Pages here: [Mflug-Portfolio](https://mattflug.github.io/mf-portfolio/).
+
+![alt text](./src/assets/picjpg.jpg)
+
 
 ## Table of Contents
 
@@ -10,19 +15,12 @@ A source to grade the accuracy of the Umpire's calls stri in each MLB game.
 - [Usage](#usage)
 - [Contact](#contact)
 
-## Installation
+## Usage
 The website can be found here
 
-## Usage
+## About
 Select the available game for each day
 
 ## Contact
-[Link to Github](https://github.com/mattflug)
+[LinkedIn](https://www.linkedin.com/in/matthew-flug1/)
 mbflug@gmail.com
-
-A Professional Portfolio built using React. A hub to store projects. Projects will involve sports and economics.
-
-The site is deployed on Github Pages here: [Mflug-Portfolio](https://mattflug.github.io/mflug-portfolio/).
-
-
-![alt text](./src/assets/picjpg.jpg)
