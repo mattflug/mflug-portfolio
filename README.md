@@ -9,7 +9,7 @@ The site is deployed on Github Pages here: [Mflug-Portfolio](https://mattflug.gi
 ![alt text](./src/assets/picjpg.jpg)
 
 ## About
-The site has four pages: Portfolio, About, Contact, Resume. The Portfolio page showcases my three best projects.
+The site has four pages: Portfolio, About, Contact, Resume. The Portfolio page showcases my three of my most recent individual projects.
 
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/matthew-flug1/)
