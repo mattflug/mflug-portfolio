@@ -2,24 +2,14 @@
 
 ## Description
 
-A Professional Portfolio built using React. A hub to store projects. Projects will involve sports and economics.
+A Professional Portfolio built using React. This portfolio will store my future projects.
 
 The site is deployed on Github Pages here: [Mflug-Portfolio](https://mattflug.github.io/mf-portfolio/).
 
 ![alt text](./src/assets/picjpg.jpg)
 
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
-
-## Usage
-The website can be found here
-
 ## About
-Select the available game for each day
+The site has four pages: Portfolio, About, Contact, Resume. The Portfolio page showcases my three best projects.
 
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/matthew-flug1/)
