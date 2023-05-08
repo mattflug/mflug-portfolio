@@ -79,7 +79,7 @@ export default function Contact() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth={false}>
-        <Box className="big-contact" sx={{ bgcolor: "#cfe8fc", height: "50vh" }}>
+        <Box className="big-contact" sx={{ bgcolor: "#cfe8fc", height: "100vh" }}>
           <h1 className="welcome">Contact</h1>
     <div>
       <p>Hello {name}</p>
